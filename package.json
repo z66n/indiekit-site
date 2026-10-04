@@ -1,0 +1,37 @@
+{
+  "name": "indiekit-site",
+  "version": "1.0.0",
+  "description": "Indiekit server for https://myindiekit.onrender.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "indiekit serve"
+  },
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=24"
+  },
+  "type": "module",
+  "indiekit": {
+    "plugins": [
+      "@indiekit/store-gitea"
+    ],
+    "publication": {
+      "me": "https://myindiekit.onrender.com"
+    },
+    "@indiekit/store-gitea": {
+      "instance": "https://tildegit.org",
+      "user": "z6n",
+      "repo": "indiekit-content",
+      "branch": "main"
+    }
+  },
+  "dependencies": {
+    "@indiekit/indiekit": "^1.0.0-beta.29",
+    "@indiekit/store-gitea": "^1.0.0-beta.28"
+  }
+}
