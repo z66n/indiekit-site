@@ -25,7 +25,69 @@
       "url": "https://indiekit-site.onrender.com"
     },
     "publication": {
-      "me": "https://z66n.github.io"
+      "me": "https://z66n.github.io",
+      "postTypes": {
+        "article": {
+          "post": {
+            "path": "_articles/{slug}.md",
+            "url": "articles/{slug}"
+          },
+          "media": {
+            "path": "media/articles/{filename}",
+            "url": "media/articles/{filename}"
+          }
+        },
+        "bookmark": {
+          "post": {
+            "path": "_bookmarks/{slug}.md",
+            "url": "bookmarks/{slug}"
+          },
+          "media": {
+            "path": "media/bookmarks/{filename}",
+            "url": "media/bookmarks/{filename}"
+          }
+        },
+        "like": {
+          "post": {
+            "path": "_likes/{slug}.md",
+            "url": "likes/{slug}"
+          },
+          "media": {
+            "path": "media/likes/{filename}",
+            "url": "media/likes/{filename}"
+          }
+        },
+        "note": {
+          "post": {
+            "path": "_notes/{slug}.md",
+            "url": "notes/{slug}"
+          },
+          "media": {
+            "path": "media/notes/{filename}",
+            "url": "media/notes/{filename}"
+          }
+        },
+        "photo": {
+          "post": {
+            "path": "_photos/{slug}.md",
+            "url": "photos/{slug}"
+          },
+          "media": {
+            "path": "media/photos/{filename}",
+            "url": "media/photos/{filename}"
+          }
+        },
+        "reply": {
+          "post": {
+            "path": "_replies/{slug}.md",
+            "url": "replies/{slug}"
+          },
+          "media": {
+            "path": "media/replies/{filename}",
+            "url": "media/replies/{filename}"
+          }
+        }
+      }
     },
     "@indiekit/store-github": {
       "user": "z66n",
