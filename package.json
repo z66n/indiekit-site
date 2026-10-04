@@ -25,7 +25,7 @@
     },
     "@indiekit/store-github": {
       "user": "z66n",
-      "repo": "https://github.com/z66n/indiekit-site",
+      "repo": "https://github.com/z66n/indiekit-content",
       "branch": "main"
     }
   },
