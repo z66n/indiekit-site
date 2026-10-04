@@ -22,7 +22,7 @@
       "@indiekit/store-github"
     ],
     "application": {
-      "url": "https://indiekit-site.onrender.com/"
+      "url": "https://indiekit-site.onrender.com"
     },
     "publication": {
       "me": "https://z66n.github.io"
