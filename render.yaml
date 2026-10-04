@@ -1,0 +1,19 @@
+# Exported from Render on 2026-10-04T00:59:20Z
+version: "1"
+services:
+- type: web
+  name: indiekit-site
+  runtime: node
+  repo: https://github.com/z66n/indiekit-site
+  plan: free
+  envVars:
+  - key: PASSWORD_SECRET
+    sync: false
+  - key: GITHUB_TOKEN
+    sync: false
+  - key: SECRET
+    sync: false
+  region: oregon
+  buildCommand: npm ci
+  startCommand: npm start
+  autoDeployTrigger: commit
