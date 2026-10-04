@@ -1,7 +1,7 @@
 {
   "name": "indiekit-site",
   "version": "1.0.0",
-  "description": "Indiekit server for https://myindiekit.onrender.com",
+  "description": "Indiekit server for https://indiekit-site.onrender.com",
   "main": "index.js",
   "scripts": {
     "start": "indiekit serve"
@@ -21,7 +21,7 @@
       "@indiekit/store-github"
     ],
     "publication": {
-      "me": "https://myindiekit.onrender.com"
+      "me": "https://indiekit-site.onrender.com"
     },
     "@indiekit/store-github": {
       "user": "z66n",

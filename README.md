@@ -1,3 +1,3 @@
-# Indiekit server for <https://myindiekit.onrender.com>
+# Indiekit server for <https://indiekit-site.onrender.com>
 
 Learn more at <https://getindiekit.com>
