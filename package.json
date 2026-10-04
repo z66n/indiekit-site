@@ -1,7 +1,7 @@
 {
   "name": "indiekit-site",
   "version": "1.0.0",
-  "description": "Indiekit server for https://indiekit-site.onrender.com",
+  "description": "Indiekit server for https://z66n.github.io",
   "main": "index.js",
   "scripts": {
     "start": "indiekit serve"
@@ -18,19 +18,24 @@
   "type": "module",
   "indiekit": {
     "plugins": [
+      "@indiekit/preset-jekyll",
       "@indiekit/store-github"
     ],
+    "application": {
+      "url": "https://indiekit-site.onrender.com/"
+    },
     "publication": {
-      "me": "https://indiekit-site.onrender.com"
+      "me": "https://z66n.github.io"
     },
     "@indiekit/store-github": {
       "user": "z66n",
-      "repo": "https://github.com/z66n/indiekit-content",
+      "repo": "https://github.com/z66n/indiekit-site",
       "branch": "main"
     }
   },
   "dependencies": {
     "@indiekit/indiekit": "^1.0.0-beta.29",
+    "@indiekit/preset-jekyll": "^1.0.0-beta.28",
     "@indiekit/store-github": "^1.0.0-beta.29"
   }
 }
