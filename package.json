@@ -18,20 +18,19 @@
   "type": "module",
   "indiekit": {
     "plugins": [
-      "@indiekit/store-gitea"
+      "@indiekit/store-github"
     ],
     "publication": {
       "me": "https://myindiekit.onrender.com"
     },
-    "@indiekit/store-gitea": {
-      "instance": "https://tildegit.org",
-      "user": "z6n",
-      "repo": "indiekit-content",
+    "@indiekit/store-github": {
+      "user": "z66n",
+      "repo": "https://github.com/z66n/indiekit-site",
       "branch": "main"
     }
   },
   "dependencies": {
     "@indiekit/indiekit": "^1.0.0-beta.29",
-    "@indiekit/store-gitea": "^1.0.0-beta.28"
+    "@indiekit/store-github": "^1.0.0-beta.29"
   }
 }
