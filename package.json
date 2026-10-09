@@ -1,5 +1,5 @@
 {
-  "name": "indiekit-site",
+  "name": "indiekit",
   "version": "1.0.0",
   "description": "Indiekit server for https://z66n.github.io",
   "main": "index.js",
@@ -22,7 +22,7 @@
       "@indiekit/store-github"
     ],
     "application": {
-      "url": "https://indiekit-site.onrender.com"
+      "url": "https://indiekit-server.onrender.com"
     },
     "publication": {
       "me": "https://z66n.github.io",

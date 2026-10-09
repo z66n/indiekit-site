@@ -2,9 +2,9 @@
 version: "1"
 services:
 - type: web
-  name: indiekit-site
+  name: indiekit-server
   runtime: node
-  repo: https://github.com/z66n/indiekit-site
+  repo: https://github.com/z66n/indiekit
   plan: free
   envVars:
   - key: PASSWORD_SECRET
